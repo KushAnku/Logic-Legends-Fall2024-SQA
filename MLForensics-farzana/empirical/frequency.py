@@ -14,6 +14,16 @@ def giveTimeStamp():
   strToret = datetime.datetime.fromtimestamp(tsObj).strftime( '%Y-%m-%d %H:%M:%S' ) 
   return strToret
 
+# Activity 4a (Hooks)
+# Intentionally insecure code to test Bandit detection
+def insecure_exec():
+    # Example of user input that could lead to security issues
+    user_input = "print('Hello, insecure world!')"  # This should simulate unsafe dynamic execution
+    exec(user_input)  # Bandit will flag this for using exec()
+
+# Call the insecure function
+insecure_exec()
+
 
 def getAllSLOC(df_param, csv_encoding='latin-1' ):
     total_sloc = 0
