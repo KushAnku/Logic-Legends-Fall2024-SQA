@@ -9,10 +9,10 @@ The objective of this project is to integrate software quality assurance activit
 
 | Name                 | Email                   |
 |----------------------|-------------------------|
-| Ankush Singh         | ans0148@auburn.edu     |
-| Aparana Pant         | azp0200@auburn.edu     |
-| Disharee Bhowmick    | dzb0110@auburn.edu     |
-| Parishruthi Ganesh   | pzg0050@auburn.edu     |
+| Ankush Singh         | ans0148@auburn.edu      |
+| Aparana Pant         | azp0200@auburn.edu      |
+| Disharee Bhowmick    | dzb0110@auburn.edu      |
+| Parishruthi Ganesh   | pzg0050@auburn.edu      |
 
 ---
 
