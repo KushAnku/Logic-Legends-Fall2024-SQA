@@ -21,6 +21,21 @@ The pre-commit hook script performs the following tasks:
 - **Block the commit** if high or medium severity issues are found.
 - **Perform additional checks** for non-ASCII file names and whitespace errors.
 
+### Terminal Output
+
+When attempting to commit changes with insecure code, the pre-commit hook scans the staged Python files for potential security risks. If high or medium severity issues are detected, the commit is blocked, and a summary is displayed in the terminal. Below is an example of the output:
+
+![SQAPicture](https://github.com/user-attachments/assets/94e864e3-1096-4387-b309-cdaffae6be79)
+
+
+
+#### In this screenshot:
+- The hook scans the Python files in the project.
+- It identifies multiple files with high or medium severity issues, including `frequency.py`.
+- The commit is blocked, and the user is instructed to resolve the issues before proceeding.
+- The full scan report is saved in `security_findings.csv`.
+
+
 ### Edited File: `frequency.py`
 The `frequency.py` file was modified to include intentionally insecure code for testing the hook:
 ```python
@@ -31,17 +46,3 @@ def insecure_exec():
 
 # Call the insecure function
 insecure_exec()
-
-
-### Terminal Output
-
-When attempting to commit changes with insecure code, the pre-commit hook scans the staged Python files for potential security risks. If high or medium severity issues are detected, the commit is blocked, and a summary is displayed in the terminal. Below is an example of the output:
-
-![image](https://github.com/user-attachments/assets/2e7fd59d-c747-4bed-bfc1-7352c0dcba17)
-
-
-#### In this screenshot:
-- The hook scans the Python files in the project.
-- It identifies multiple files with high or medium severity issues, including `frequency.py`.
-- The commit is blocked, and the user is instructed to resolve the issues before proceeding.
-- The full scan report is saved in `security_findings.csv`.
