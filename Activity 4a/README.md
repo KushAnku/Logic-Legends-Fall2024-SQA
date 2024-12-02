@@ -1,1 +1,33 @@
-# Activity 4a README 
+# Activity 4a: Pre-Commit Hook for Security Analysis
+
+## Overview
+This activity involves the creation of a **Git pre-commit hook** that automatically scans Python files for potential security weaknesses using the `Bandit` static analysis tool. The findings are saved in a **CSV report** (`security_findings.csv`), and commits are blocked if any issues of high or medium severity are detected.
+
+Additionally, the `frequency.py` file was intentionally modified to include insecure code to test the effectiveness of the pre-commit hook.
+
+---
+
+## Implementation Details
+
+### Pre-Commit Hook
+The pre-commit hook script performs the following tasks:
+- **Identify staged Python files** during a commit process.
+- **Run `Bandit`** to scan these files for security vulnerabilities.
+- **Generate a CSV report** (`security_findings.csv`) with details such as:
+  - File name
+  - Severity level
+  - Line number
+  - Issue description
+- **Block the commit** if high or medium severity issues are found.
+- **Perform additional checks** for non-ASCII file names and whitespace errors.
+
+### Edited File: `frequency.py`
+The `frequency.py` file was modified to include intentionally insecure code for testing the hook:
+```python
+def insecure_exec():
+    # Example of user input that could lead to security issues
+    user_input = "print('Hello, insecure world!')"  # Simulates unsafe dynamic execution
+    exec(user_input)  # Bandit will flag this for using exec()
+
+# Call the insecure function
+insecure_exec()
