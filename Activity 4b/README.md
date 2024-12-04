@@ -1,4 +1,4 @@
-# Fuzzing with fuzz.py
+# ACtivity 4b :Fuzzing with fuzz.py
 The `fuzz.py` script automatically fuzzes 5 Python methods to identify any bugs, crashes, or unexpected behavior.
 
 ## How it Works
