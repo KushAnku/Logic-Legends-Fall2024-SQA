@@ -66,3 +66,5 @@ The program logs each test's details (timestamp, test ID, method name, inputs, o
 ## **Results**
 - Any bugs or unexpected behavior discovered during fuzz testing will be logged into the `fuzz_forensics.log` file.
 - Each log entry includes details like the method name, inputs, outputs, and exceptions encountered for easier debugging and analysis.
+
+<img width="730" alt="for" src="https://github.com/user-attachments/assets/4fe8c021-1902-4e63-8795-0cf3b26712cc">
