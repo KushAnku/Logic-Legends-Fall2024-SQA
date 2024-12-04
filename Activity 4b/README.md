@@ -47,4 +47,5 @@ The `fuzz.py` script automatically fuzzes 5 Python methods to identify any bugs,
 The fuzzing results, including any identified bugs, crashes, or unexpected behavior, are saved in the `fuzz_report.log` file.
 This log can be reviewed to identify and address potential vulnerabilities or inconsistencies in the methods.
 
+<img width="680" alt="fuzzz" src="https://github.com/user-attachments/assets/ceb72ddb-6a5c-4223-a7b6-61e7de60e1c0">
 
