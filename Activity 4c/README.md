@@ -1,4 +1,4 @@
-# **Fuzzing with fuzz.py**
+# **Integrate forensics by modifying 5 Python methods of choice in fuzz.py**
 The `fuzz.py` script automatically fuzzes 5 Python methods to identify any bugs, crashes, or unexpected behavior.
 
 ---
