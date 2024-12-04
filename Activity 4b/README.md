@@ -1,4 +1,4 @@
-# ACtivity 4b :Fuzzing with fuzz.py
+# Activity 4b :Fuzzing with fuzz.py
 The `fuzz.py` script automatically fuzzes 5 Python methods to identify any bugs, crashes, or unexpected behavior.
 
 ## How it Works
@@ -48,4 +48,7 @@ The fuzzing results, including any identified bugs, crashes, or unexpected behav
 This log can be reviewed to identify and address potential vulnerabilities or inconsistencies in the methods.
 
 <img width="680" alt="fuzzz" src="https://github.com/user-attachments/assets/ceb72ddb-6a5c-4223-a7b6-61e7de60e1c0">
+
+<img width="824" alt="fuzz1" src="https://github.com/user-attachments/assets/504fd760-6463-4589-b551-fe346972c590">
+
 
