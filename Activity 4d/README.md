@@ -28,4 +28,5 @@ The integrated workflow ensures:
 - **Bug Identification:** Fuzz testing identifies crashes and unexpected behavior in methods, with results logged for debugging.
 - **Clear Visibility:** Logs and analysis are accessible for review in the GitHub Actions interface and Codacy dashboard.
 
-<img width="207" alt="4d(1)" src="https://github.com/user-attachments/assets/b1134768-7543-4d5c-8ded-81448e7da8e1">
+<img width="919" alt="4d(2)" src="https://github.com/user-attachments/assets/b61996ba-dbbe-41db-97cb-aeeeb3da8e7d">
+
