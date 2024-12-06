@@ -27,8 +27,9 @@ The project incorporates the following key SQA activities:
 #### Git Hooks for Security Analysis
 A Git Hook will automatically run security analysis tools on Python files upon changes and commit, generating a CSV file with identified security weaknesses.
 
+
 #### Fuzz Testing
-A `fuzz.py` script will perform fuzz testing on five Python methods, identifying potential bugs and edge cases. The fuzzing process will be integrated into GitHub Actions.
+A `fuzz.py`   script will perform fuzz testing on five Python methods, identifying potential bugs and edge cases. The fuzzing process will be integrated into GitHub Actions.
 
 #### Forensics Integration
 Modifications to five Python methods will include forensics techniques to enhance traceability and debugging.
